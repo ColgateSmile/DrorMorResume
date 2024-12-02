@@ -839,4 +839,65 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
+
+/*===============================
+    LeafLet MAP
+===============================*/
+
+
+.hobbies ul.list-group li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.hobbies i {
+    margin-right: 8px;
+}
+#map {
+    height: 450px; /* Adjust height if needed */
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid #007bff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.section-heading h2 {
+    padding-top: 20px; /* Adjust as needed */
+    padding-bottom: 20px;
+}
+
+.hobbies h3 {
+    padding-top: 15px; /* Adjust as needed */
+    padding-bottom: 20px;
+}
+.leaflet-popup-content-wrapper {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    padding: 15px; /* Add padding for better spacing */
+    background-color: #f8f9fa; /* Light background color for better visibility */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.leaflet-popup-content {
+    margin: 0; /* Remove default margin */
+    line-height: 1.5; /* Adjust line spacing */
+}
+
+.leaflet-popup-tip {
+    background-color: #f8f9fa; /* Match background color with popup */
+}
+marker.bindPopup(`
+    <div style="font-family: 'Arial', sans-serif; font-size: 16px; line-height: 1.6;">
+        <h4 style="margin: 0; color: #007bff;">${run.title}</h4>
+        <p style="margin: 5px 0;">
+            <strong>Activity:</strong> ${run.activity}<br>
+            <strong>Date:</strong> ${run.date}<br>
+            <strong>Distance:</strong> ${run.distance}<br>
+            <strong>Time:</strong> ${run.time}<br>
+            <strong>Pace:</strong> ${run.pace}
+        </p>
+    </div>
+`);
+
 /*========================Thank you=================
