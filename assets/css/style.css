@@ -887,17 +887,5 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .leaflet-popup-tip {
     background-color: #f8f9fa; /* Match background color with popup */
 }
-marker.bindPopup(`
-    <div style="font-family: 'Arial', sans-serif; font-size: 16px; line-height: 1.6;">
-        <h4 style="margin: 0; color: #007bff;">${run.title}</h4>
-        <p style="margin: 5px 0;">
-            <strong>Activity:</strong> ${run.activity}<br>
-            <strong>Date:</strong> ${run.date}<br>
-            <strong>Distance:</strong> ${run.distance}<br>
-            <strong>Time:</strong> ${run.time}<br>
-            <strong>Pace:</strong> ${run.pace}
-        </p>
-    </div>
-`);
 
 /*========================Thank you=================
