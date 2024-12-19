@@ -1,5 +1,5 @@
 // Initialize EmailJS
-emailjs.init("uVA9lLJbV9sklerMa"); // Replace with your EmailJS public key
+emailjs.init("uVA9lLJbV9sklerMa"); 
 
 // Form Submission Handler
 document.getElementById("contact-form").addEventListener("submit", function (event) {

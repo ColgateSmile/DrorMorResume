@@ -1,0 +1,56 @@
+|-- .dist
+|-- assets
+    |-- css
+        |-- animate.css
+        |-- bootsnav.css
+        |-- bootstrap.min.css
+        |-- flaticon.css
+        |-- font-awesome.min.css
+        |-- owl.carousel.min.css
+        |-- owl.theme.default.min.css
+        |-- responsive.css
+        |-- style.css
+    |-- download
+        |-- Diplomas&CertificationsDrorMor.pdf
+        |-- DrorMorCV.pdf
+    |-- fonts
+        |-- Flaticon.eot
+        |-- Flaticon.svg
+        |-- Flaticon.ttf
+        |-- Flaticon.woff
+        |-- fontawesome-webfont.eot
+        |-- fontawesome-webfont.svg
+        |-- fontawesome-webfont.ttf
+        |-- fontawesome-webfont.woff
+        |-- fontawesome-webfont.woff2
+        |-- FontAwesome.otf
+        |-- glyphicons-halflings-regular.eot
+        |-- glyphicons-halflings-regular.svg
+        |-- glyphicons-halflings-regular.ttf
+        |-- glyphicons-halflings-regular.woff
+        |-- glyphicons-halflings-regular.woff2
+        |-- Linearicons-Free.eot
+        |-- Linearicons-Free.svg
+        |-- Linearicons-Free.ttf
+        |-- Linearicons-Free.woff
+        |-- Linearicons-Free.woff2
+    |-- images
+        |-- about
+            |-- profile_image.jpg
+            |-- welcome-banner.jpg
+    |-- js
+        |-- bootsnav.js
+        |-- bootstrap.min.js
+        |-- custom.js
+        |-- email.js
+        |-- jquery.appear.js
+        |-- jquery.js
+        |-- jquery.sticky.js
+        |-- owl.carousel.min.js
+        |-- progressbar.js
+    |-- logo
+        |-- favicon.png
+    |-- Runing Data
+        |-- Runing AROUND THE World.csv
+|-- index.html
+|-- readme.txt
