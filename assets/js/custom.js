@@ -206,6 +206,16 @@ document.addEventListener('DOMContentLoaded', function () {
             pace: "4:29",
             location: [32.80635571603543, 34.960106872015096]
         },
+
+        {
+            activity: "Road Running",
+            date: "28/02/2025",
+            title: "Tel-Aviv Marathon",
+            distance: "21.11 km",
+            time: "01:45:41",
+            pace: "05:00",
+            location: [32.10062552066394, 34.807773948359824]
+        },
         // Add additional data points here...
     ];
 
