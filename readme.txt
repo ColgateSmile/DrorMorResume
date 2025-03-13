@@ -39,7 +39,7 @@ This project represents my professional profile, featuring:
 
 ## Live Demo
 
-Check out the live version of my portfolio [here](https://colgatesmile.github.io/DrorMorResumeWebSite/).
+Check out the live version of my portfolio [here](https://colgatesmile.github.io/DrorMorResume/).
 
 ---
 
