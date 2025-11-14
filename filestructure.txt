@@ -11,7 +11,7 @@
         |-- style.css
     |-- download
         |-- Diplomas&CertificationsDrorMor.pdf
-        |-- DrorMorCV.pdf
+        |-- DrorMorCV.pdf.pdf
     |-- fonts
         |-- Flaticon.eot
         |-- Flaticon.svg
