@@ -45,6 +45,151 @@
         <!--responsive.css-->
         <link rel="stylesheet" href="assets/css/responsive.css">
 
+		<style>
+			/* WhatsApp CTAs */
+			.whatsapp-cta {
+				background: #25d366 !important;
+				color: #fff !important;
+				border: 1px solid #1ebe57 !important;
+				padding: 10px 18px;
+				border-radius: 24px;
+				font-weight: 700;
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				gap: 8px;
+				box-shadow: 0 6px 14px rgba(37, 211, 102, 0.25);
+				transition: transform 0.15s ease, box-shadow 0.15s ease;
+				text-transform: none;
+				letter-spacing: 0;
+				line-height: 1.05;
+				font-size: 15px;
+				white-space: nowrap;
+			}
+			.whatsapp-cta:hover {
+				color: #fff !important;
+				transform: translateY(-1px);
+				box-shadow: 0 10px 20px rgba(37, 211, 102, 0.35);
+			}
+			.whatsapp-cta .fa-whatsapp {
+				font-size: 16px;
+			}
+			.whatsapp-nav {
+				margin-left: 14px;
+			}
+			.whatsapp-cta--nav {
+				padding: 6px 12px;
+				font-size: 12px;
+				border-radius: 16px;
+				min-height: 32px;
+				box-shadow: 0 4px 10px rgba(37, 211, 102, 0.2);
+			}
+			.whatsapp-cta--hero {
+				min-width: 190px;
+				justify-content: center;
+				font-size: 16px;
+				padding: 12px 20px;
+			}
+			.whatsapp-cta--contact {
+				width: 100%;
+				justify-content: center;
+				font-size: 14px;
+				padding: 12px 18px;
+			}
+			.header-cta-row {
+				display: inline-flex;
+				gap: 12px;
+				flex-wrap: wrap;
+				align-items: center;
+				justify-content: center;
+				margin-top: 14px;
+			}
+			/* Contact section polish */
+			.contact .contact-content {
+				padding: 10px 0 30px;
+			}
+			.contact .single-contact-box {
+				background: #ffffff;
+				border: 1px solid #e9eef5;
+				border-radius: 12px;
+				box-shadow: 0 12px 30px rgba(33, 37, 41, 0.08);
+				padding: 22px;
+			}
+			.contact-form .form-control {
+				border-radius: 10px;
+				border: 1px solid #dfe6ee;
+				box-shadow: none;
+				transition: border-color 0.2s ease, box-shadow 0.2s ease;
+			}
+			.contact-form .form-control:focus {
+				border-color: #25d366;
+				box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.15);
+			}
+			.contact-btn {
+				border-radius: 10px;
+				font-weight: 700;
+				letter-spacing: 0.2px;
+				box-shadow: 0 10px 18px rgba(86, 98, 255, 0.25);
+				width: 100%;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.contact-btn.is-loading {
+				opacity: 0.8;
+				cursor: wait;
+			}
+			#form-response {
+				min-height: 22px;
+				font-weight: 600;
+			}
+			.contact .single-contact-btn {
+				width: 100%;
+				height: 50px;
+				padding: 0;
+			}
+			.contact .whatsapp-btn-wrapper {
+				background: transparent !important;
+				border: 0 !important;
+				box-shadow: none !important;
+				padding: 0;
+				height: auto;
+			}
+			.contact .single-contact-btn.whatsapp-btn-wrapper:hover {
+				background: transparent !important;
+				border: 0 !important;
+				box-shadow: none !important;
+				transition: none !important;
+			}
+			.contact .whatsapp-btn-wrapper .whatsapp-cta,
+			.contact .whatsapp-btn-wrapper .whatsapp-cta:hover,
+			.contact .whatsapp-btn-wrapper .whatsapp-cta:focus {
+				background: #25d366 !important;
+				color: #fff !important;
+				border-color: #1ebe57 !important;
+				transform: none !important;
+				box-shadow: 0 6px 14px rgba(37, 211, 102, 0.25) !important;
+				transition: none !important;
+			}
+			.contact .whatsapp-btn-wrapper .whatsapp-cta::before,
+			.contact .whatsapp-btn-wrapper .whatsapp-cta::after {
+				display: none !important;
+			}
+			.contact .contact-whatsapp-cta,
+			.contact .contact-whatsapp-cta:hover,
+			.contact .contact-whatsapp-cta:focus {
+				background: #25d366 !important;
+				color: #fff !important;
+				border-color: #1ebe57 !important;
+				transform: none !important;
+				box-shadow: 0 10px 20px rgba(37, 211, 102, 0.25) !important;
+				transition: none !important;
+				margin-top: 20px;
+				display: inline-flex;
+			}
+		</style>
+
 		<!-- Leaflet CSS -->
 		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
         		
@@ -79,6 +224,7 @@
 								<li class="smooth-menu"><a href="#experience">Experience</a></li>
 								<li class="smooth-menu"><a href="#hobbies-sports">hobbies-sports</a></li>
 								<li class="smooth-menu"><a href="#contact">Contact</a></li>
+
 							</ul>
 						</div>
 					</div>
@@ -98,7 +244,13 @@
 							<h2>hi<span>,</span> i am <br> Dror Mor </h2>
 							<p>Software developer </p>
 							<p>Artificial Intellegence & Machine Learning enthusiast</p>
-							<a href="assets/download/DrorMorCV.pdf.pdf" download>Download resume</a>
+							<div class="header-cta-row">
+								<a href="assets/download/DrorMorCV.pdf.pdf" download>Download resume</a>
+								<a class="whatsapp-cta whatsapp-cta--hero" href="https://wa.me/972524293146?text=Hi%20Dror%2C%20I%27d%20like%20to%20connect" target="_blank" rel="noopener">
+									<i class="fab fa-whatsapp" aria-hidden="true"></i>
+									<span>Contact WhatsApp</span>
+								</a>
+							</div>
 							<!--/.<a href="assets/download/Diplomas&CertificationsDrorMor.pdf" download>Download Diplomas</a>-->
 						</div><!--/.header-text-->
 					</div><!--/.col-->
@@ -677,6 +829,7 @@
 					</div>
 				</div>
 			</div>
+			
 		</div>
 	</div>
 </section>
@@ -701,10 +854,10 @@
 			
         </footer><!--/.footer-copyright-->
 		<!--footer-copyright end-->
-		
+
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-		<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 		<script src="assets/js/email.js"></script>
 
 		<script src="assets/js/jquery.js"></script>
